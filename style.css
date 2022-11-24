@@ -1,0 +1,83 @@
+*{
+    overflow: hidden;
+    margin: 0;
+}
+#backG{
+    overflow: hidden;
+    background: radial-gradient(circle, rgb(7, 4, 53) 0%, rgba(0,0,0,1) 50%, rgb(0, 48, 5) 100%);
+    position: absolute;
+    z-index: -3;
+}
+#hello{
+    color: white;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.5rem;
+    flex-direction: column;
+}
+#viewWorkButton{
+    background-color: transparent;
+    font-family: 'Major Mono Display', monospace;
+    padding: 1rem;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: crimson;
+    border: 2px solid crimson;
+}
+@keyframes marginChange {
+    0% {
+        color: crimson;
+        font-weight: 600;
+        border: 2px solid crimson;
+        box-shadow: 0px 0px 5em crimson;
+    }
+    50% {
+        color: yellow;
+        font-weight: 650;
+        border: 2px solid yellow;
+        box-shadow: 0px 0px 5em yellow;
+    }
+    100%{
+        color: crimson;
+        font-weight: 600;
+        border: 2px solid crimson;
+        box-shadow: 0px 0px 5em crimson;
+    }
+  }
+  @keyframes colorChange {
+    0% {
+        color: crimson;
+        box-shadow: 0px 0px 5em crimson;
+    }
+    50% {
+        color: yellow;
+        box-shadow: 0px 0px 5em yellow;
+    }
+    100%{
+        color: crimson;
+        box-shadow: 0px 0px 5em crimson;
+    }
+  }
+.span_name{
+    color: crimson;
+}
+
+.span_name:hover{
+    animation: colorChange 3s infinite ease-out;
+}
+#viewWorkButton:hover{
+    animation: marginChange 3s infinite ease-out;
+}
+h1{
+    align-self: center;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+#about{
+    color: black;
+    margin-top: 100%;
+}
