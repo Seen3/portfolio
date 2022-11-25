@@ -35,7 +35,9 @@ function draw(){
 
 function viewWork(){
     let elements=document.getElementById('hello');
+    let aboutmePage=document.getElementById('aboutme');
     let work=document.getElementById('about');
     elements.style.display='none';
+    aboutmePage.style.display='flex';
     about.style.display='block';
 }

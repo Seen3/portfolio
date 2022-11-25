@@ -25,3 +25,12 @@ li a{
     font-weight: 800;
     text-align: center;
       }
+#aboutpage{
+    color: rgb(255, 100, 100);
+}
+#aboutme{
+    width: 100%;
+    display: none;
+    position: absolute;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.phi-column{
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+}
+p:hover{
+    opacity: 1;
+    transition: 2s;
+}
+p{
+    transition: 2s;
+    opacity: 0.1;
+    margin: 3em 0.4em;
+    font-size: 2.5em;
+    font-family:'Major Mono Display', monospace;
+}
+img:hover{
+    transition: 2s;
+    opacity: 0.8;
+    box-shadow: 0px 0px 3em rgb(0,146,94);
+}
+img{
+    transition: 2s;
+    border: 2px dotted rgb(0,146,94);
+    float: right;
+    width: 45%;
+    opacity: 0.1;
+    border-radius: 4em;
+    height: auto;
+    margin: 10% 10% 0 0;
+}
+.row{
+    width: 70%;
+    flex-direction: row-reverse;
+}
