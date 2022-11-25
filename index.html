@@ -20,7 +20,7 @@
     </head>
     <body>
         <script src="point.js"></script>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
         <div id="backG">
         </div>
         <div id="hello">
@@ -31,14 +31,13 @@
         <div id="about">
             <nav>
                 <ul>
-                    <li id="aboutpage">
+                    <li id="aboutpage" onclick="viewWork()">
                         <a> About Me</a>
                     </li>
-
-                    <li>
+                    <li id="contactpage" onclick="gotocontact()">
                         <a>Contact</a>
                     </li>
-                    <li>
+                    <li id="projects">
                         <a>Projects</a>
                     </li>
                 </ul>
@@ -56,6 +55,14 @@
             <div class="row">
                 <img src="./human.jpeg">
             </div>
+        </div>
+        <div id="contact">
+            <div>
+                <p>Email:muhammadtaseen331@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/mdtaseen/" target="_blank">Linkedin</a>:https://www.linkedin.com/in/mdtaseen/</p>
+                <p><a href="https://github.com/Seen3" target="_blank">Github</a>:https://github.com/Seen3</p>
+            </div>
+
         </div>
     </body>
 </html>

@@ -79,7 +79,17 @@ h1{
     margin-right: 4em;
 }
 #about{
+    z-index: 2;
     color: white;
     position: absolute;
     display: none;
+}
+#contact{
+    opacity: 0.3;
+    display: none;
+    position: absolute;
+    color: wheat;
+}
+#contact:hover{
+    opacity: 1;
 }

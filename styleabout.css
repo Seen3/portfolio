@@ -12,7 +12,7 @@ nav{
     background-color: rgb(0, 0, 0,0.1);
 }
 li:hover{
-    color: yellow;
+    color: yellow !important;
     cursor: pointer;
 }
 li {

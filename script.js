@@ -36,8 +36,23 @@ function draw(){
 function viewWork(){
     let elements=document.getElementById('hello');
     let aboutmePage=document.getElementById('aboutme');
-    let work=document.getElementById('about');
+    let listitem=document.getElementById('aboutpage');
+    listitem.style.color='crimson';
+    let contactItem=document.getElementById('contactpage');
+    contactItem.style.color='white';
     elements.style.display='none';
+    let contacts=document.getElementById('contact');
+    contacts.style.display='none';
     aboutmePage.style.display='flex';
     about.style.display='block';
+}
+function gotocontact(){
+    let listitem=document.getElementById('aboutpage');
+    listitem.style.color='white';
+    let contactItem=document.getElementById('contactpage');
+    contactItem.style.color='crimson';
+    let elements=document.getElementById('aboutme');
+    let contacts=document.getElementById('contact');
+    elements.style.display='none';
+    contacts.style.display='flex';
 }
