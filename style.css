@@ -18,6 +18,7 @@
     font-size: 2.5rem;
     flex-direction: column;
 }
+
 #viewWorkButton{
     background-color: transparent;
     font-family: 'Major Mono Display', monospace;
@@ -78,6 +79,7 @@ h1{
     margin-right: 4em;
 }
 #about{
-    color: black;
-    margin-top: 100%;
+    color: white;
+    position: absolute;
+    display: none;
 }

@@ -1,8 +1,6 @@
 let points=[];
 let npoints=1000
 let bg;
-
-
 function setup(){
     let canv=createCanvas(windowWidth, windowHeight);
     canv.parent('backG');
@@ -34,3 +32,10 @@ function draw(){
     }
 }
 
+
+function viewWork(){
+    let elements=document.getElementById('hello');
+    let work=document.getElementById('about');
+    elements.style.display='none';
+    about.style.display='block';
+}
