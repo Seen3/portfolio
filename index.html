@@ -22,8 +22,9 @@
         <title>Portfolio</title>
     </head>
     <body>
-        <script src="point.js"></script>
+        <script src="point.js" defer></script>
         <script src="script.js" defer></script>
+        <script src="projchange.js" defer></script>
         <div id="backG">
         </div>
         <div id="hello">
@@ -68,13 +69,14 @@
             </div>
         </div>
         <div id="lookProjects">
-            <div><h1>Evolving Life With Genetic Algorithm</h1></div>
-            <div><p>This project uses genetic algorithm concepts to try and
+            <div><h1 id="Tit">Evolving Life With Genetic Algorithm</h1></div>
+            <div><p id="des">This project uses genetic algorithm concepts to try and
                     stimulate creatures. The creatures seek food and avoid
                     poison in their environment. With time the creatures learn
                     to seek the food and avoid the poison.</p></div>
-            <div><a href="https://github.com/Seen3/LifeSimMI">Repo here</a></div>
-            <div><a href="https://seen3.github.io/LifeSimMI/">Demo here</a></div>
+            <div><a id="repoL" href="https://github.com/Seen3/LifeSimMI">Repo here</a></div>
+            <div><a id="demoL" href="https://seen3.github.io/LifeSimMI/">Demo here</a></div>
+            <div id="next" onclick="changePage()">-></div>
         </div>
     </body>
 </html>
