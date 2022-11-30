@@ -58,3 +58,28 @@ p{
     color: white;
     animation: none;
 }
+@media (max-width:1690px)
+{
+    .phi-column{
+        width: 100%;
+        display: block;
+    }
+    .row{
+        width: 0;
+    }
+    #Seen{
+        display: none;
+    }
+    @media (max-width:1200px)
+    {
+        li{
+            padding: 0;
+        }
+        p{
+            font-size:3.2vw;
+        }
+        #lookProjects>div>h1{
+            font-size: 4vw;
+        }
+    }
+}
