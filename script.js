@@ -45,6 +45,8 @@ function viewWork(){
     contacts.style.display='none';
     aboutmePage.style.display='flex';
     about.style.display='block';
+    let projectsList=document.getElementById('lookProjects');
+    projectsList.style.display='none';
 }
 function gotocontact(){
     let listitem=document.getElementById('aboutpage');
@@ -53,6 +55,23 @@ function gotocontact(){
     contactItem.style.color='crimson';
     let elements=document.getElementById('aboutme');
     let contacts=document.getElementById('contact');
+    let projectsList=document.getElementById('lookProjects');
+    projectsList.style.display='none';
     elements.style.display='none';
     contacts.style.display='flex';
+}
+function getprojects(){
+    let listitem=document.getElementById('aboutpage');
+    listitem.style.color='white';
+    let contactItem=document.getElementById('contactpage');
+    contactItem.style.color='white';
+    let projectitem=document.getElementById('projects');
+    projectitem.style.color='crimson';
+    let contacts=document.getElementById('contact');
+    contacts.style.display='none';
+    let elements=document.getElementById('aboutme');
+    elements.style.display='none';
+    let projectsList=document.getElementById('lookProjects');
+    projectsList.style.display='block';
+
 }

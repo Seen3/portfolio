@@ -1,6 +1,6 @@
 *{
-    overflow: hidden;
     margin: 0;
+    overflow: hidden;
 }
 #backG{
     overflow: hidden;
@@ -91,5 +91,24 @@ h1{
     color: wheat;
 }
 #contact:hover{
+    opacity: 1;
+}
+#lookProjects{
+    color: white;
+    display: none;
+    position: absolute;
+    font-family: 'Major Mono Display', monospace;
+    margin: 14em 3em;
+}
+#lookProjects>div>h1{
+    font-size: 5em;
+}
+
+#lookProjects>div>p{
+    opacity:1;
+}
+#lookProjects>div>a{
+    font-size: 3em;
+    color: white;
     opacity: 1;
 }
